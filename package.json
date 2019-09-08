@@ -1,0 +1,39 @@
+{
+  "name": "water-abs-acceptance-tests",
+  "version": "1.0.0",
+  "description": "Acceptance tests project template",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/wdio ./local.conf.js",
+    "ci": "./node_modules/.bin/wdio ./jenkins.conf.js",
+    "bstest": "./node_modules/.bin/wdio ./browserstack.conf.js",
+    "lint": "./node_modules/eslint/bin/eslint.js *.js ./features/step_definitions/** ./features/support/lib/** ./features/support/pages/**"
+  },
+  "dependencies": {
+    "chai": "4.1.0",
+    "cucumber": "2.3.1",
+    "fibers": "^2.0.0",
+    "fs-extra": "4.0.0",
+    "lodash": "4.17.4",
+    "path": "0.12.7",
+    "request": "2.81.0",
+    "wdio-browserstack-service": "0.1.11",
+    "wdio-cucumber-framework": "0.3.1",
+    "wdio-firefox-profile-service": "0.0.3",
+    "wdio-junit-reporter": "0.3.0",
+    "wdio-selenium-standalone-service": "0.0.9",
+    "wdio-spec-reporter": "0.1.0",
+    "webdriverio": "4.8.0",
+    "winston": "2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.2.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "selenium-cucumber-js": "^1.6.2"
+  }
+}
