@@ -15,7 +15,7 @@
     "cucumber": "2.3.1",
     "fibers": "^2.0.0",
     "fs-extra": "4.0.0",
-    "lodash": "4.17.4",
+    "lodash": "4.17.21",
     "path": "0.12.7",
     "request": "2.81.0",
     "wdio-browserstack-service": "0.1.11",
